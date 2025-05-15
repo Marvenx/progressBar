@@ -11,7 +11,8 @@ function App() {
   return (
     <div>
       <ProgressBar progress={progress} />
-      <Button onClick={updateProgress} />
+      {/*<Button onClick={updateProgress} />*/}
+      <button onClick={updateProgress}>Increase Progress</button>;
     </div>
   );
 }
